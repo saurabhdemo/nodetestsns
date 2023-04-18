@@ -3,7 +3,6 @@ command = "npm install && npm run build"
 [build.environment]
 NODE_ENV = "production"
 [[redirects]]
-  from = "/api/*"
-  to = "/.netlify/functions/api/:splat"
+  from = "/*"
+  to = "/index.html"
   status = 200
-  force = true
