@@ -3,3 +3,5 @@ command = "npm install && npm run build"
 publish = "dist"
 [build.environment]
 NODE_ENV = "production"
+publish: /opt/build/repo/dist
+publishOrigin: config  
