@@ -1,11 +1,22 @@
 {
   "name": "nodetestsns",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saurabhdemo/nodetestsns.git"
+  },
+  "bugs": {
+    "url": "https://github.com/saurabhdemo/nodetestsns/issues"
+  },
+  "homepage": "https://github.com/saurabhdemo/nodetestsns#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
