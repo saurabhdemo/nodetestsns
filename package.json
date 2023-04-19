@@ -11,7 +11,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm run",
     "lint": "eslint . --ext .js,.ts",
-    "compile": "tsc"
+    "compile": "tsc",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
