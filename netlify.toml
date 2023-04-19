@@ -4,5 +4,5 @@ command = "npm install && npm run build"
 NODE_ENV = "production"
 [[redirects]]
   from = "/*"
-  to = "/server.js"
+  to = "/function/post.js"
   status = 200
